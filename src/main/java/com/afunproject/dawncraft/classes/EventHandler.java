@@ -48,7 +48,7 @@ public class EventHandler {
         LazyOptional<PickedClass> optional = player.getCapability(DCClasses.PICKED_CLASS);
         if (!optional.isPresent()) return;
         PickedClass cap = optional.orElseGet(null);
-        if (!cap.hasPicked()) {
+        if (!cap.hasPicked() &! ClassHandler.getClasses().isEmpty()) {
             NetworkHandler.NETWORK_INSTANCE.sendTo(new OpenClassGUIMessage(),
                     ((ServerPlayer) player).connection.connection, NetworkDirection.PLAY_TO_CLIENT);
             cap.setGUIOpen(true);
@@ -63,6 +63,11 @@ public class EventHandler {
         LazyOptional<PickedClass> optional = player.getCapability(DCClasses.PICKED_CLASS);
         if (!optional.isPresent()) return;
         PickedClass cap = optional.orElseGet(null);
+        if (!cap.hasPicked() &! ClassHandler.getClasses().isEmpty() &! cap.isGUIOpen()) {
+            NetworkHandler.NETWORK_INSTANCE.sendTo(new OpenClassGUIMessage(),
+                    ((ServerPlayer) player).connection.connection, NetworkDirection.PLAY_TO_CLIENT);
+            cap.setGUIOpen(true);
+        }
         if (cap.hasPicked() &! cap.hasStatModifiers()) cap.applyStatModifiers((ServerPlayer) player);
     }
     
