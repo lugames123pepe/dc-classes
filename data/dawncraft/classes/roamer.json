@@ -15,10 +15,6 @@
 			"id": "minecraft:bow"
 		},
 		{
-			"id": "nyfsquiver:basic_quiver",
-			"slot": "curios:quiver"
-		},
-		{
 			"id": "minecraft:arrow",
 			"count": 64
 		},
