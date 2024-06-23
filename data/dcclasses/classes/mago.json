@@ -1,0 +1,23 @@
+{
+	"index": 7,
+	"attributes": {
+		"generic.max_health": 12,
+		"paraglider:max_stamina": 15
+	},
+	"starting_skills": [
+		"epicfight:emergency_escape"
+	],
+	"items": [
+		{
+			"id": "iron's_spell_'n_spellbooks:grimoire_of_evokation",
+			"slot": "mainhand"
+		},
+		{
+			"id": "minecraft:bread",
+			"count": 64,
+			"slot": "mainhand"
+		}
+
+	],
+	"animation": "epicfight:biped/living/kneel"
+}

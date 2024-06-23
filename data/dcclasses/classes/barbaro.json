@@ -1,9 +1,10 @@
 {
-	"index": 1,
+	"index": 5,
 	"attributes": {
-		"generic.max_health": 24,
-		"generic.movement_speed": 0.09,
-		"paraglider:max_stamina": 15
+		"generic.max_health": 18,
+		"generic.attack_damage": 3,
+		"generic.movement_speed": 0.13,
+		"paraglider:max_stamina": 32
 	},
 	"starting_skills": [
 		"epicfight:roll",
@@ -12,14 +13,11 @@
 	],
 	"items": [
 		{
-			"id": "minecraft:stone_axe"
-		},
-		{
-			"id": "minecraft:shield"
+			"id": "epicfight:stone_greatsword"
 		},
 		{
 			"id": "minecraft:bread",
-			"count": 6
+			"count": 64
 		}
 	],
 	"animation": "epicfight:biped/combat/axe_auto1"

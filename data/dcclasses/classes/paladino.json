@@ -4,7 +4,7 @@
 		"generic.max_health": 26,
 		"generic.armor": 2,
 		"generic.movement_speed": 0.06,
-		"paraglider:max_stamina": 10
+		"paraglider:max_stamina": 28
 	},
 	"starting_skills": [
 		"epicfight:roll",
@@ -21,7 +21,7 @@
 		},
 		{
 			"id": "minecraft:bread",
-			"count": 6,
+			"count": 64,
 			"slot": "mainhand"
 		}
 	],

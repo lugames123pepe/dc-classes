@@ -1,31 +1,27 @@
 {
 	"index": 6,
 	"attributes": {
-		"generic.max_health": 24,
+		"generic.max_health": 14,
 		"forge:entity_gravity": 0.1,
-		"paraglider:max_stamina": 28
+		"paraglider:max_stamina": 46
 	},
 	"starting_skills": [
-		"epicfight:emergency_escape"
+		"epicfight:roll",
+		"epicfight:swordmaster"
 	],
 	"items": [
 		{
-			"id": "minecraft:stone_pickaxe",
+			"id": "epicfight:iron_dagger",
 			"slot": "mainhand"
 		},
 		{
 			"id": "minecraft:bread",
-			"count": 12,
+			"count": 64,
 			"slot": "mainhand"
 		},
+	
 		{
-			"id": "minecraft:torch",
-			"count": 16,
-			"slot": "offhand"
-		},
-		{
-			"id": "minecraft:cobblestone",
-			"count": 32,
+			"id": "epicfight:iron_dagger",
 			"slot": "offhand"
 		}
 	],

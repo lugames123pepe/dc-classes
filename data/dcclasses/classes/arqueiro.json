@@ -11,17 +11,17 @@
 	],
 	"items": [
 		{
-			"id": "minecraft:bow",
+			"id": "epicfight:longbow",
 			"slot": "mainhand"
 		},
 		{
 			"id": "minecraft:arrow",
-			"count": 16,
+			"count": 64,
 			"slot": "mainhand"
 		},
 		{
 			"id": "minecraft:bread",
-			"count": 10,
+			"count": 64,
 			"slot": "mainhand"
 		}
 	],
